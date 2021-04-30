@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://ben1:XK3uzOgQa9xTpJz7@cluster0.msuds.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+mongoose.connect("Mongo Password", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
